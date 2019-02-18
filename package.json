@@ -1,0 +1,21 @@
+{
+  "name": "eslint-ts-aribnb-config-issue-example",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint-airbnb-first": "eslint --config .eslintrc-airbnb-first.json ./src --ext '.js,.ts'",
+    "lint-ts-first": "eslint --config .eslintrc-ts-first.json ./src --ext '.js,.ts'"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.3.0",
+    "@typescript-eslint/parser": "^1.3.0",
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "typescript": "^3.3.3"
+  }
+}

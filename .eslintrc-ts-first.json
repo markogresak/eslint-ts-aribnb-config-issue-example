@@ -1,0 +1,14 @@
+{
+    "extends": ["plugin:@typescript-eslint/recommended", "airbnb"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "modules": true
+        },
+        "project": "./tsconfig.json",
+        "tsconfigRootDir": "./"
+    },
+    "env": {
+        "browser": true
+    }
+}
